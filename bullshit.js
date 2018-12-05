@@ -8,6 +8,7 @@ hide();
     penUp();
     penColor("#C7FFF9");
     penDown();
+    turn60439r3();
     dot(1000); 
     drawSun(95, 255, 252, 199, 0.6); // light yellow sun background
     drawSun(82, 250, 247, 193, 0.8); // darker yellow sun background
