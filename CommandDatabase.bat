@@ -40,4 +40,4 @@ Packet Tracer Command Database - Rounds 1 & 2
 
 (config-router) # no auto-summary                     // disables auto summarization
 
-(config-router )# default-information originate       // advertises the default route in OSPF; use “router ospf 1” command first
+(config-router) # default-information originate       // advertises the default route in OSPF; use “router ospf 1” command first
