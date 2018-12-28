@@ -29,3 +29,13 @@ Packet Tracer Command Database - Rounds 1 & 2
 (config-if) # switchport trunk encapsulation dot1q    // trunk <ethernet> & encapsulate
 
 (config-if) # switchport access <vlan no.>            // route to specific vlan #
+
+(config) # router ospf 1                              // uses the process id to start ospf in one area
+
+(config-rtr) # network 0.0.0.0 255.255.255.255 area 0 // if an IP address is enabled on any interface, place the interface in area 0
+
+(config) # router eigrp 1                             // required to disable auto summarization (enters RIP)
+
+(config-router) # no auto-summary                     // disables auto summarization
+
+(config-router )# default-information originate       // advertises the default route in OSPF; use “router ospf 1” command first
