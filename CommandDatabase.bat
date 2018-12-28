@@ -8,7 +8,7 @@ Packet Tracer Command Database - Rounds 1 & 2
 
 # enable secret <password>                            // set encrypted password
 
-# hostname <name>	                             // set device name
+# hostname <name>	                              // set device name
 
 (config) # int <name> <optional-sub-name>             // ethernet, lan
 
