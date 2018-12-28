@@ -1,10 +1,12 @@
-#Packet Tracer Command Database - Rounds 1 & 2
+Packet Tracer Command Database - Rounds 1 & 2
 
 > en                                                  // enable
 
 > config t                                            // configure terminal (access #)
 
 # enable password <password>                          // set password
+
+# enable secret <password>                            // set encrypted password
 
 # hostname <name>	                                    // set device name
 
